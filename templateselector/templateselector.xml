@@ -20,4 +20,14 @@
 		<language tag="ja-JU">ja-JU.plg_system_templateselector.ini</language>
 		<language tag="ja-JU">ja-JU.plg_system_templateselector.sys.ini</language>
 	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="enable_zopim" type="radio" class="inputbox" default="0" label="Gebruik ZOPIM" description="">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
 </extension>
